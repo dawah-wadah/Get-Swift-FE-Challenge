@@ -1,0 +1,30 @@
+
+
+.name {
+  color: #EE262D
+}
+
+.driver {
+  display: flex;
+  margin: 5px;
+  justify-content: space-around;
+  border-radius: 2px;
+  width: 95%;
+  background: #fff;
+}
+
+
+.driver img {
+  margin: 5px;
+  height: 40px;
+}
+
+.driver-photo {}
+
+.driver-info {
+  display: flex;
+}
+
+.availibilty {}
+
+.text {}
