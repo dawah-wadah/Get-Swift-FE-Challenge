@@ -1,0 +1,22 @@
+.header img {
+  height: 100%;
+  background-size: contain;
+}
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+
+
+.header-menu {
+  background-color: #E06857;
+  width: 100%;
+  display: flex;
+}
+
+.header-menu li {
+  margin: 0 20px;
+}
