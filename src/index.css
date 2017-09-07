@@ -15,8 +15,12 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li, form, labe
 }
 
 .map {
-  height: 600px;
+  height: 100vh;
   width: 100%
+}
+
+.bottom {
+  margin: auto 0 10px 0;
 }
 
 .body {

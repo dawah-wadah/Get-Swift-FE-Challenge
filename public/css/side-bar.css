@@ -1,7 +1,7 @@
 .btn {
   background: #eee;
   padding: 15px;
-  margin: 20px 5px;
+  margin: 5px;
   border-radius: 3px;
   color: #e06857;
   font-size: 11px;
@@ -14,4 +14,9 @@
 
 .side-bar {
   width: 25%;
+}
+
+.menu-name {
+  margin: 10px 0;
+  font-size: 14px;
 }
