@@ -9,7 +9,7 @@ class SideBar extends Component {
 
     return(
       <h1>Side Bar Stuff</h1>
-    )
+    );
   }
 }
 
