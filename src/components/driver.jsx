@@ -4,20 +4,20 @@ import React, {
 
 
 const Driver = ( {driver} ) => (
-	<div className='driver'>
+	<div className='driver item'>
         <div className='driver-info'>
         <div className='driver-photo'>
           <img src={driver.photo}/>
         </div>
-        <div >
-          <p color='red'>{driver.name.toUpperCase()}</p>
-          <p>{driver.jobs} jobs</p>
+        <div className='center'>
+          <div className='red bold'>{driver.name.toUpperCase()}</div>
+          <div className='black left'>{driver.jobs} jobs</div>
         </div>
 
         </div>
-        <div className='availibilty'>
-          <p>{'Available In'.toUpperCase()}</p>
-          <div className='text'>{driver.wait} mins</div>
+        <div className='center'>
+          <div className='bold black'>{'Available In'.toUpperCase()}</div>
+          <div className='black right'>{driver.wait} mins</div>
         </div>
 
       </div>

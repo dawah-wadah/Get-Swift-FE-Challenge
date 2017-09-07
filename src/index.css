@@ -4,22 +4,20 @@ body {
   font-family: sans-serif;
 }
 
-
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li, form, label, footer, header, menu, nav, section {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    font-family: "Source Sans Pro";
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
 }
 
 .map {
   height: 600px;
   width: 100%
 }
-
 
 .body {
   display: flex;
@@ -30,5 +28,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li, form, labe
   margin: 15px 6px 6px 6px;
   border-radius: 3px;
   border: 1px solid #dddddd;
-  height: 20px;
+  height: 30px;
+width: 90%;
+
 }

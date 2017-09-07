@@ -1,30 +1,79 @@
-
-
 .name {
   color: #EE262D
 }
 
-.driver {
+.driver {}
+
+.item {
   display: flex;
   margin: 5px;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 10px;
   border-radius: 2px;
-  width: 95%;
+  width: 100%;
   background: #fff;
 }
 
-
 .driver img {
-  margin: 5px;
-  height: 40px;
+  height: 25px;
 }
 
-.driver-photo {}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0;
+}
+
+.black {
+  color: black;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.driver-photo {
+  margin: 5px;
+}
 
 .driver-info {
   display: flex;
+
 }
 
+.left {
+align-self: flex-start;
+}
 .availibilty {}
 
 .text {}
+
+.number {}
+
+.location {
+  color: #e06857
+}
+
+.bold {
+  font-weight: 900;
+
+}
+
+.job-name {
+  color: #1fd693;
+}
+
+.red {
+  color: red;
+}
+
+.job-left {
+  line-height: 2em
+}
+
+.job-right {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
