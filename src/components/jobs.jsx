@@ -11,7 +11,7 @@ const Job = ({job}) => (
       </div>
       <div className='job-right'>
         <div className='status bold'>{job.status}</div>
-        <i className="fa fa-bell bottom"></i>
+        <i className="fa fa-bell bottom right"></i>
       </div>
     </div>
 

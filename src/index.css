@@ -1,9 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li, form, label, footer, header, menu, nav, section {
   margin: 0;
   padding: 0;
@@ -19,20 +13,26 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li, form, labe
   width: 100%
 }
 
+.body {
+  display: flex;
+}
+/*Positioning*/
+
 .bottom {
   margin: auto 0 10px 0;
 }
 
-.body {
+.center {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0;
 }
 
-.search {
-  padding: 10px;
-  margin: 15px 6px 6px 6px;
-  border-radius: 3px;
-  border: 1px solid #dddddd;
-  height: 30px;
-width: 90%;
+.right {
+  align-self: flex-end;
+}
 
+.left {
+  align-self: flex-start;
 }

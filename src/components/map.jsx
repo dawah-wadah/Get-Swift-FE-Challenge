@@ -9,14 +9,12 @@ class Map extends Component {
 		super( props );
 		this.state = {
 			center: {
-				lat: 40.6743890,
-				lng: -73.9455
+				lat: 40.740198,
+				lng: -73.989433
 			},
-			zoom: 13,
-
+			zoom: 17,
 		};
 	}
-
 
 	render() {
 		return (

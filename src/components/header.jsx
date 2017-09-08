@@ -8,15 +8,19 @@ const headers = [
   '≡'
 ];
 
-const allHeaders = headers.map((header) => (
-  <li key={header}>{header}</li>
-));
+const allHeaders = headers.map( ( header ) => (
+	<li key={header}>{header.toUpperCase()}</li>
+) );
 const Header = () => (
-  <div className='header'>
-    <img className='logo' src="images/logo.png"/>
-    <ul className='header-menu'>
+	<div className='header'>
+    <div className='header-right'>
+      <img className='logo' src="images/logo.png"/>
+    </div>
+    <div>
+    <ul className='header-left'>
       {allHeaders}
     </ul>
+  </div>
   </div>
 );
 

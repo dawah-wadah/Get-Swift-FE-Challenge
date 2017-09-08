@@ -1,22 +1,30 @@
-.header img {
+.header-right img {
   height: 100%;
   background-size: contain;
 }
+
+.header-right {
+  height: 100%;
+}
 .header {
+  background-color: #E06857;
   height: 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   margin: 0;
 }
 
-
-.header-menu {
-  background-color: #E06857;
+.header-left {
   width: 100%;
+  height: 100%;
   display: flex;
 }
 
-.header-menu li {
-  margin: 0 20px;
+.header-left li {
+  list-style-type: none;
+  color: white;
+  padding: 0 10px 0 20px;
+  font-size: 2em;
 }
