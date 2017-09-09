@@ -1,4 +1,11 @@
-# GetSwift HTML/CSS test 
+# GetSwift HTML/CSS test
+
+# Instructions
+
+- npm install
+- npm start
+
+
 
 ![](http://i.imgur.com/n7xQOBb.png)
 
@@ -13,7 +20,7 @@ Your task is to take this mockup and implement some responsive HTML/CSS. You may
 
 ### You are not required to implement:
 
-- The map 
+- The map
 - The map markers
 - The exact styling (colours, fonts, margins etc)
 
